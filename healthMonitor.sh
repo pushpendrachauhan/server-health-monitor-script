@@ -51,7 +51,7 @@ done
 if [ "$mem_status" == "unsafe" ] ||  [ "$disk_status" == "unsafe" ]; then
   echo "boom"
   body+="\n\n$memory"
-  echo -e $body | mail -s "$hostIp Server DISK & MEMORY report" "pushpendra.singh@cerridsolutions.com"
+  echo -e $body | mail -s "$hostIp Server DISK & MEMORY report" "YourMail@gmail.com"
 fi
 echo $memory
 }
